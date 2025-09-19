@@ -30,11 +30,11 @@ def assess_password_strength(password):
         strength = "Weak "
 
     print("\nPassword Analysis:")
-    print(f"✓ Length >= 8: {'Yes' if length_ok else 'No'}")
-    print(f"✓ Has Uppercase Letter: {'Yes' if has_upper else 'No'}")
-    print(f"✓ Has Lowercase Letter: {'Yes' if has_lower else 'No'}")
-    print(f"✓ Has Number: {'Yes' if has_digit else 'No'}")
-    print(f"✓ Has Special Character: {'Yes' if has_special else 'No'}")
+    print(f"Length >= 8: {'Yes' if length_ok else 'No'}")
+    print(f"Has Uppercase Letter: {'Yes' if has_upper else 'No'}")
+    print(f"Has Lowercase Letter: {'Yes' if has_lower else 'No'}")
+    print(f"Has Number: {'Yes' if has_digit else 'No'}")
+    print(f"Has Special Character: {'Yes' if has_special else 'No'}")
 
     print(f"\n→ Password Strength: {strength}")
 
